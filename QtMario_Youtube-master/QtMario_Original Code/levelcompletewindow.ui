@@ -16,16 +16,16 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>20</y>
+     <x>70</x>
+     <y>40</y>
      <width>501</width>
-     <height>91</height>
+     <height>111</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Arcade</family>
-     <pointsize>75</pointsize>
+     <family>Adobe Caslon Pro</family>
+     <pointsize>52</pointsize>
     </font>
    </property>
    <property name="text">
@@ -67,15 +67,16 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>110</y>
-     <width>481</width>
+     <x>70</x>
+     <y>120</y>
+     <width>401</width>
      <height>61</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>27</pointsize>
+     <family>Adobe Caslon Pro</family>
+     <pointsize>20</pointsize>
     </font>
    </property>
    <property name="text">

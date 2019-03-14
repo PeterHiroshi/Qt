@@ -83,15 +83,16 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>60</x>
      <y>30</y>
-     <width>301</width>
+     <width>271</width>
      <height>51</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>26</pointsize>
+     <family>Adobe Caslon Pro</family>
+     <pointsize>21</pointsize>
     </font>
    </property>
    <property name="text">
@@ -101,11 +102,18 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>36</x>
      <y>110</y>
-     <width>47</width>
-     <height>13</height>
+     <width>61</width>
+     <height>20</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Caslon Pro</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="text">
     <string>Username</string>
@@ -114,11 +122,18 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>36</x>
      <y>150</y>
-     <width>47</width>
-     <height>13</height>
+     <width>61</width>
+     <height>20</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Caslon Pro</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="text">
     <string>Password</string>
@@ -129,9 +144,16 @@
     <rect>
      <x>300</x>
      <y>150</y>
-     <width>101</width>
+     <width>121</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Caslon Pro</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="toolTip">
     <string>Click to show password text</string>

@@ -3,6 +3,7 @@
 #include "weatherballoon.h"
 #include "weatherstation.h"
 MainWindow::MainWindow(){
+
     //ARA I initialize the sound manager and pass the mainwindow object to it
     //the connectSound function connects the playSound signal to the playSound
     //slot of the manager. I MIGHT NEED TO ADD OVERLOADED FUNCTIONS FOR PLAY OPTIONS
@@ -172,9 +173,9 @@ void MainWindow::processNetworkData(QByteArray data){
     myRegExMatch = myRegEx->match(temperature);
     temperature = myRegExMatch.captured(0);
     if(data.toDouble() > 70){
-        this->statusBar()->showMessage(QString("The current temperature is " + temperature + "°, get outside!"));
+        //this->statusBar()->showMessage(QString("The current temperature is " + temperature + "°, get outside!"));
     }
     else{
-        this->statusBar()->showMessage(QString("The current temperature is " + temperature + "°, fuck it's cold!"));
+       // this->statusBar()->showMessage(QString("The current temperature is " + temperature + "°, it's cold!"));
     }
 }

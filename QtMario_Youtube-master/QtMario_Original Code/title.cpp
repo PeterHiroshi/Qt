@@ -70,10 +70,10 @@ Title::Title(View *view, QWidget *parent) : QGraphicsScene(parent){
     //Add Label for username
     QFont font("MV Boli", 15, QFont::Bold);
     userName = new QLabel(viewer);
-    userName->setFont(font);
+    //userName->setFont(font);
     userName->setText("Username");
     userName->setObjectName(QString("username"));
-    userName->setGeometry(QRect(430, 420, 100, 25));
+    userName->setGeometry(QRect(470, 420, 100, 25));
 
     //Add line edit for password, set tooltip
     passLine = new QLineEdit(viewer);
@@ -84,10 +84,10 @@ Title::Title(View *view, QWidget *parent) : QGraphicsScene(parent){
 
     //Add Label For password
     password = new QLabel(viewer);
-    password->setFont(font);
+    //password->setFont(font);
     password->setText("Password");   
     password->setObjectName(QString("password"));
-    password->setGeometry(QRect(430, 450, 100, 25));
+    password->setGeometry(QRect(470, 450, 100, 25));
 
     //Add radio button and connect signal to slot,set tooltip
     radioButton = new QRadioButton(viewer);
